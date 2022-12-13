@@ -6,9 +6,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-   
+    
+    { title: 'Home', url: 'home', icon: 'home' },
     { title: 'Navegação', url: 'navegacao', icon: 'navigate-circle' },
-    { title: 'Botões', url: 'buttons', icon: 'help-circle' }
+    { title: 'Botões', url: 'buttons', icon: 'help-circle' },
+    { title: 'Alertas', url: 'alerta', icon: 'chatbubble' }
+   
     
   ];
   public labels = ['Senac'];

@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'buttons',
     loadChildren: () => import('./components/buttons/buttons.module').then( m => m.ButtonsPageModule)
+  },
+  {
+    path: 'alerta',
+    loadChildren: () => import('./components/alerta/alerta.module').then( m => m.AlertaPageModule)
   }
 ];
 
